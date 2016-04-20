@@ -54,6 +54,7 @@ button a {
 	border-color: white;
 	font-color: black;
 }
+<<<<<<< HEAD
 #at-ss {
 	background-color: rgba(250,250,250,0.9);
 	padding-top: 15px;
@@ -61,4 +62,59 @@ button a {
 #buzz {
 	background-color: rgba(250,250,250,0.9);
 	padding-top: 15px;
+=======
+
+
+.carouselbox {
+  font-family: helvetica,sans-serif;
+  font-size: 14px;
+  width: 1000px;
+  position: relative;
+  margin: 1em;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 10px #ccc;
+  overflow: hidden;
+}
+.content {
+  margin: 0;
+  padding: 0;
+}
+.content li {
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+}
+
+.active {
+  height: 130px;
+}
+.active li {
+  position: absolute;
+  top: 200px;
+}
+.active li.current {
+  top: 30px;
+}
+
+.active .buttons {
+  padding: 5px 0;
+  background: #eee;
+  text-align: center;
+  z-index: 10;
+  position: relative;
+}
+.carouselbox button {
+  border: thick;
+  display: none;
+}
+.active button {
+  display: block;
+} 
+.offscreen {
+  position: absolute;
+  left: -2000px;
+>>>>>>> origin/master
 }
