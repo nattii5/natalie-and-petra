@@ -30,4 +30,12 @@ button a {
 	color: white;
 }
 
-body{padding-top:70px;}
+.body {
+	padding-top:70px;
+}
+
+.navbar {
+	background-color: white;
+	border-color: white;
+	font-color: black;
+}
