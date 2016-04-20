@@ -34,6 +34,14 @@ button a {
 	padding-top:70px;
 }
 
+#navbar a {
+	color: white;
+} 
+
+.navbar-header {
+	color:white;
+}
+
 .navbar {
 	background-color: white;
 	border-color: white;
