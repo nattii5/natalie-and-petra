@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 $('.carousel').carousel(= (function(){
+=======
+carouselbox(= (function(){
+>>>>>>> origin/master
   var box = document.querySelector('.carouselbox');
   var next = box.querySelector('.next');
   var prev = box.querySelector('.prev');
