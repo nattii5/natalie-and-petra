@@ -17,6 +17,9 @@ border-color : #314776;
 background-color : #b62f26;
 border-color : #b62f26;
 }
+.jumbotron img {
+	max-width: 200px;
+}
 .jumbotron {
 	min-height: 400px;
 	background-image: url(images/Swimming.jpg);
@@ -32,6 +35,9 @@ border-color : #b62f26;
 .jumbotron form {
 	margin-bottom: 1em;
 	padding-top: 140px;
+}
+#blog img {
+	max-width: 360px;
 }
 #mission {
 	background-color:rgba(32,35,41,0.9);
@@ -61,4 +67,12 @@ button a {
 #buzz {
 	background-color: rgba(250,250,250,0.9);
 	padding-top: 15px;
+}
+.module {
+	display: cover;
+	box-sizing: border-box;
+
+}
+.mission {
+	display: cover;
 }
